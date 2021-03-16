@@ -11,8 +11,7 @@ const SearchScreen = () => {
   const [parkingLots, setParkingLots] = useState([])
 
   const fetchYelpData = (location) => {
-    const token =
-      'Iac6dYa4M4gQnlohD3Kxw-Id1-2khnUrqQf9UuqmUNWwEaYl0ZXfVRNWIP7j6QwLMHamlQbvbpV7ugmY-esx3lzWGxS8496Rxybi_B_cFpQ7egEcctj6sD_D129QYHYx'
+    const token = '<YOUR API KEY>'
 
     fetch(
       `${'https://cors-anywhere.herokuapp.com/'}https://api.yelp.com/v3/businesses/search?location=${encodeURIComponent(
